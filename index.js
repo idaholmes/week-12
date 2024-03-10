@@ -96,7 +96,6 @@ $("#taskForm").submit(function (event) {
   let newTask = {
     title: title,
     description: description,
-    id: Math.floor(Math.random() * (1000 - 0)) + 0,
   };
 
   DOMManager.createTask(newTask);
